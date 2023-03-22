@@ -1,0 +1,45 @@
+@import '../../styles/mixins.scss';
+
+
+.footer {
+    background-color: #F5F5F5;
+
+    &_wrapper {
+        max-width: 1332px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 29px 10px;
+    }
+
+    &_logo {
+        height: 67px;
+        max-width: 208px;
+        margin-right: 102px;
+
+        @include breakpoint(lg) {
+            margin-right: 0;
+        }
+
+        @include breakpoint(sm) {
+            height: 0;
+            max-width: 120px;
+        }
+
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    &_adress {
+        max-width: 131px;
+
+        p {
+            text-align: right;
+            font: normal normal normal 14px/21px Poppins;
+        }
+    }
+}

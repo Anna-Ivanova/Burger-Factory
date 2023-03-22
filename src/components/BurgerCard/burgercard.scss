@@ -1,0 +1,37 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+.menu {
+    &_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFFFFF;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 26px;
+        padding: 20px;
+    }
+
+    &_imgwrapper {
+        max-width: 220px;
+
+        @include breakpoint (premd) {
+            max-width: 150px;
+        }
+    }
+
+
+    &_img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    &_link {
+        align-self: end;
+        cursor: pointer;
+        font: normal normal bold 18px/27px Poppins;
+        letter-spacing: 0px;
+        color: $ref-details;
+    }
+}

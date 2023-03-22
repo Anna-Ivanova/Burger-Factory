@@ -1,0 +1,122 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.hero {
+    &_main {
+        height: 604px;
+        background-image: url('../../../public/images/BackgroundRectBig.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: visible;
+        max-width: 1920px;
+        margin: 125px auto 0;
+
+        @include breakpoint (lm) {
+            height: 504px;
+        }
+
+        @include breakpoint (premd) {
+            height: 404px;
+        }
+
+        @include breakpoint (sm) {
+            height: 304px;
+        }
+
+    }
+
+    &_info {
+        max-width: 1332px;
+        padding: 49px 10px 0 10px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex: 50%;
+        align-items: center;
+
+    }
+
+    &_descr {
+        flex-basis: 50%;
+    }
+
+    &_title {
+        text-align: left;
+        font: normal normal 900 84px/125px Poppins;
+        letter-spacing: 0px;
+
+        @include breakpoint (lg) {
+            font: normal normal 900 64px/100px Poppins;
+        }
+
+        @include breakpoint (premd) {
+            font: normal normal 900 34px/45px Poppins;
+        }
+
+        @include breakpoint (sm) {
+            font: normal normal 900 20px/18px Poppins;
+        }
+
+    }
+
+    &_subtitle {
+        text-align: left;
+        font: normal normal bold 24px/35px Poppins;
+        letter-spacing: 0px;
+        padding: 20px 0;
+
+        @include breakpoint (lg) {
+            font: normal normal 900 18px/28px Poppins;
+        }
+
+        @include breakpoint (premd) {
+            font: normal normal 900 14px/25px Poppins;
+        }
+
+        @include breakpoint (sm) {
+            font: normal normal 900 12px/16px Poppins;
+        }
+    }
+
+    &_btn {
+        padding: 8px 26px 7px 27px;
+        font: normal normal bold 18px/27px Poppins;
+        background-color: $block-btn;
+        border-radius: 10px;
+
+        @include breakpoint (lg) {
+            padding: 4px 16px 4px 16px;
+            font: normal normal bold 14px/21px Poppins;
+        }
+
+        @include breakpoint (premd) {
+            padding: 4px 8px 4px 8px;
+        }
+
+        @include breakpoint (sm) {
+            padding: 4px 6px 4px 6px;
+            font: normal normal bold 12px/12px Poppins;
+            text-align: center;
+        }
+
+        &:hover {
+            background-color: #d8c51a;
+            transition: 0.3s;
+        }
+    }
+
+    &_img {
+        max-height: 646px;
+
+        @include breakpoint (sm) {
+            flex-basis: 50%;
+        }
+
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+}

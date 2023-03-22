@@ -1,0 +1,28 @@
+.map {
+    &_wrapper {
+        max-width: 860px;
+        margin: 0 auto;
+        border-radius: 30px;
+        background-color: #ffff;
+        overflow: hidden;
+    }
+
+    &_container {
+        max-width: 1332px;
+        padding: 0 10px 150px 10px;
+        margin: 0 auto;
+    }
+
+    &_adress {
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal normal 24px/35px Poppins;
+        letter-spacing: 0px;
+        margin: 30px 0;
+
+    }
+}
+
+.marker {
+    z-index: 100000;
+}

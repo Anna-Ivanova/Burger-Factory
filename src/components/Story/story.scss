@@ -1,0 +1,60 @@
+@import '../../styles/mixins.scss';
+
+.story {
+    &_main {
+        padding: 150px 0;
+
+        @include breakpoint (premd) {
+            padding: 70px 0;
+        }
+    }
+
+    &_info {
+        max-width: 1332px;
+        padding: 49px 10px 0 10px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex: 50%;
+        align-items: center;
+        gap: 49px;
+
+        @include breakpoint (premd) {
+            flex-direction: column;
+        }
+    }
+
+    &_descr {
+        flex-basis: 50%;
+    }
+
+    &_img {
+        flex-basis: 50%;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    &_title {
+        margin-bottom: 20px;
+    }
+
+    &_subtitle {
+        padding-bottom: 50px;
+
+        @include breakpoint (premd) {
+            padding-bottom: 20px;
+        }
+
+    }
+
+    &_text {
+        padding: 50px 10px 0 10px;
+
+        @include breakpoint (premd) {
+            padding: 20px 5px 0 5px;
+        }
+    }
+}

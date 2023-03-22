@@ -1,0 +1,129 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.app {
+    &_header {
+        position: fixed;
+        height: 125px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    &_wrapper {
+        max-width: 1332px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 29px 10px;
+
+        @include breakpoint(sm) {
+            align-items: normal;
+        }
+    }
+
+    &_hamburger {
+        display: none;
+
+        @include breakpoint(lg) {
+            display: block;
+            margin-left: auto;
+        }
+    }
+
+    &_logo {
+        height: 67px;
+        max-width: 208px;
+        margin-right: 102px;
+
+        @include breakpoint(lg) {
+            margin-right: 0;
+        }
+
+        @include breakpoint(sm) {
+            height: 0;
+            max-width: 120px;
+        }
+
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    &_menu {
+
+        li a {
+            font: normal normal bold 18px/27px Poppins;
+            letter-spacing: 0px;
+            color: $font-color;
+            cursor: pointer;
+
+            &:hover {
+
+                text-decoration: underline;
+                transition: 0.3s;
+            }
+
+            &.active {
+                text-decoration: underline;
+
+            }
+
+        }
+
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+            flex-wrap: wrap;
+
+
+
+            @include breakpoint(lg) {
+                position: fixed;
+                left: -100%;
+                top: 125px;
+                flex-direction: column;
+                background-color: $prim-btn;
+                width: 100%;
+                height: 90vh;
+                z-index: 999;
+                text-align: center;
+                transition: .3s;
+
+
+            }
+
+            &.active {
+                left: 0;
+            }
+
+        }
+    }
+
+    &_btnOrder {
+        background-color: $prim-btn;
+        color: $font-color;
+        margin-left: auto;
+        padding: 9px 32px 6px 33px;
+        text-align: center;
+        font: normal normal bold 18px/25px Poppins;
+        letter-spacing: 0px;
+        border-radius: 10px;
+
+        @include breakpoint (premd) {
+            padding: 6px 18px 6px 18px;
+            font: normal normal bold 14px/20px Poppins;
+        }
+
+        &:hover {
+            background-color: $ref-details;
+            transition: 0.3s;
+        }
+    }
+}

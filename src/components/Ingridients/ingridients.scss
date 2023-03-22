@@ -1,0 +1,35 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.ingridients {
+    &_main {
+        padding-top: 240.8px;
+        max-width: 1332px;
+        margin: 0 auto;
+
+        @include breakpoint (lm) {
+            padding-top: 140.8px;
+        }
+
+        @include breakpoint (sm) {
+            padding-top: 70px;
+        }
+    }
+
+    &_title {
+        margin-bottom: 20px;
+    }
+
+    &_subtitle {
+        max-width: 690px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+
+
+    }
+
+    &_info {
+        padding: 50px 10px 0 10px;
+
+    }
+}

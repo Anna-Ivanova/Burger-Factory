@@ -1,0 +1,126 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+@import './mixins.scss';
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $font-color;
+}
+
+ul,
+li,
+dl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font: normal normal 900 64px/95px Poppins;
+    letter-spacing: 0px;
+
+    @include breakpoint (lg) {
+        font: normal normal 900 44px/64px Poppins;
+    }
+
+    @include breakpoint (premd) {
+        font: normal normal 900 34px/45px Poppins;
+    }
+
+    @include breakpoint (sm) {
+        font: normal normal 900 20px/18px Poppins;
+    }
+}
+
+.subtitle {
+    text-align: center;
+    font: normal normal bold 24px/35px Poppins;
+    letter-spacing: 0px;
+    max-width: 690px;
+    margin: 0 auto;
+
+
+    @include breakpoint (lg) {
+        font: normal normal 900 18px/28px Poppins;
+    }
+
+    @include breakpoint (premd) {
+        font: normal normal 900 14px/25px Poppins;
+    }
+
+    @include breakpoint (sm) {
+        font: normal normal 900 12px/16px Poppins;
+    }
+}
+
+.info {
+    text-align: center;
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    max-width: 894px;
+    margin: 0 auto;
+
+    @include breakpoint (premd) {
+        font: normal normal normal 14px/25px Poppins;
+    }
+
+    @include breakpoint (sm) {
+        font: normal normal normal 12px/16px Poppins;
+    }
+}
+
+.btnOrder {
+    background-color: $prim-btn;
+    color: $font-color;
+    margin-left: auto;
+    padding: 9px 32px 6px 33px;
+    text-align: center;
+    font: normal normal bold 18px/25px Poppins;
+    letter-spacing: 0px;
+    border-radius: 10px;
+
+    @include breakpoint (premd) {
+        padding: 6px 18px 6px 18px;
+        font: normal normal bold 14px/20px Poppins;
+    }
+
+    &:hover {
+        background-color: $ref-details;
+        transition: 0.3s;
+    }
+}
