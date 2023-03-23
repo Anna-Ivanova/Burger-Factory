@@ -9,7 +9,8 @@ import Map from './components/Map/Map';
 import './styles/styles.scss'
 import Footer from './components/Footer/Footer';
 
-const API_KEY = 'AIzaSyDoLFYQb3VXaNoXru42OjHvAgu4aTtavYw';
+const API_KEY = process.env.REACT_APP_API_KEY;
+console.log(API_KEY);
 
 
 const defaultCenter = {

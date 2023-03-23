@@ -106,24 +106,5 @@
         }
     }
 
-    &_btnOrder {
-        background-color: $prim-btn;
-        color: $font-color;
-        margin-left: auto;
-        padding: 9px 32px 6px 33px;
-        text-align: center;
-        font: normal normal bold 18px/25px Poppins;
-        letter-spacing: 0px;
-        border-radius: 10px;
 
-        @include breakpoint (premd) {
-            padding: 6px 18px 6px 18px;
-            font: normal normal bold 14px/20px Poppins;
-        }
-
-        &:hover {
-            background-color: $ref-details;
-            transition: 0.3s;
-        }
-    }
 }
