@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "//anna-ivanova.github.io/Burger-Factory/static/css/main.f30b6dc5.css",
-    "main.js": "//anna-ivanova.github.io/Burger-Factory/static/js/main.51c4c4f2.js",
-    "static/css/239.c935ca80.chunk.css": "//anna-ivanova.github.io/Burger-Factory/static/css/239.c935ca80.chunk.css",
-    "static/js/239.0e81a025.chunk.js": "//anna-ivanova.github.io/Burger-Factory/static/js/239.0e81a025.chunk.js",
-    "static/css/290.ef596110.chunk.css": "//anna-ivanova.github.io/Burger-Factory/static/css/290.ef596110.chunk.css",
-    "static/js/290.e5584f54.chunk.js": "//anna-ivanova.github.io/Burger-Factory/static/js/290.e5584f54.chunk.js",
-    "static/css/196.7af69aef.chunk.css": "//anna-ivanova.github.io/Burger-Factory/static/css/196.7af69aef.chunk.css",
-    "static/js/196.ccfbb010.chunk.js": "//anna-ivanova.github.io/Burger-Factory/static/js/196.ccfbb010.chunk.js",
-    "static/media/BackgroundRectBig.png": "//anna-ivanova.github.io/Burger-Factory/static/media/BackgroundRectBig.9922990311528bc6f684.png",
-    "static/media/revicons.eot": "//anna-ivanova.github.io/Burger-Factory/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "//anna-ivanova.github.io/Burger-Factory/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "//anna-ivanova.github.io/Burger-Factory/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "//anna-ivanova.github.io/Burger-Factory/index.html",
-    "main.f30b6dc5.css.map": "//anna-ivanova.github.io/Burger-Factory/static/css/main.f30b6dc5.css.map",
-    "main.51c4c4f2.js.map": "//anna-ivanova.github.io/Burger-Factory/static/js/main.51c4c4f2.js.map",
-    "239.c935ca80.chunk.css.map": "//anna-ivanova.github.io/Burger-Factory/static/css/239.c935ca80.chunk.css.map",
-    "239.0e81a025.chunk.js.map": "//anna-ivanova.github.io/Burger-Factory/static/js/239.0e81a025.chunk.js.map",
-    "290.ef596110.chunk.css.map": "//anna-ivanova.github.io/Burger-Factory/static/css/290.ef596110.chunk.css.map",
-    "290.e5584f54.chunk.js.map": "//anna-ivanova.github.io/Burger-Factory/static/js/290.e5584f54.chunk.js.map",
-    "196.7af69aef.chunk.css.map": "//anna-ivanova.github.io/Burger-Factory/static/css/196.7af69aef.chunk.css.map",
-    "196.ccfbb010.chunk.js.map": "//anna-ivanova.github.io/Burger-Factory/static/js/196.ccfbb010.chunk.js.map"
+    "main.css": "/Burger-Factory/static/css/main.c9340ad8.css",
+    "main.js": "/Burger-Factory/static/js/main.36357604.js",
+    "static/css/239.c935ca80.chunk.css": "/Burger-Factory/static/css/239.c935ca80.chunk.css",
+    "static/js/239.0e81a025.chunk.js": "/Burger-Factory/static/js/239.0e81a025.chunk.js",
+    "static/css/290.ef596110.chunk.css": "/Burger-Factory/static/css/290.ef596110.chunk.css",
+    "static/js/290.e5584f54.chunk.js": "/Burger-Factory/static/js/290.e5584f54.chunk.js",
+    "static/css/196.7af69aef.chunk.css": "/Burger-Factory/static/css/196.7af69aef.chunk.css",
+    "static/js/196.ccfbb010.chunk.js": "/Burger-Factory/static/js/196.ccfbb010.chunk.js",
+    "static/media/BackgroundRectBig.png": "/Burger-Factory/static/media/BackgroundRectBig.9922990311528bc6f684.png",
+    "static/media/revicons.eot": "/Burger-Factory/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Burger-Factory/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Burger-Factory/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Burger-Factory/index.html",
+    "main.c9340ad8.css.map": "/Burger-Factory/static/css/main.c9340ad8.css.map",
+    "main.36357604.js.map": "/Burger-Factory/static/js/main.36357604.js.map",
+    "239.c935ca80.chunk.css.map": "/Burger-Factory/static/css/239.c935ca80.chunk.css.map",
+    "239.0e81a025.chunk.js.map": "/Burger-Factory/static/js/239.0e81a025.chunk.js.map",
+    "290.ef596110.chunk.css.map": "/Burger-Factory/static/css/290.ef596110.chunk.css.map",
+    "290.e5584f54.chunk.js.map": "/Burger-Factory/static/js/290.e5584f54.chunk.js.map",
+    "196.7af69aef.chunk.css.map": "/Burger-Factory/static/css/196.7af69aef.chunk.css.map",
+    "196.ccfbb010.chunk.js.map": "/Burger-Factory/static/js/196.ccfbb010.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f30b6dc5.css",
-    "static/js/main.51c4c4f2.js"
+    "static/css/main.c9340ad8.css",
+    "static/js/main.36357604.js"
   ]
 }
