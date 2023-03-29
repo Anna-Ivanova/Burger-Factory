@@ -1,0 +1,2 @@
+.burger_main{margin:0 auto;max-width:1332px;padding:150px 10px 0}@media(max-width:700px){.burger_main{padding:80px 10px 0}}.burger_title{margin-bottom:50px}.burger_menu{grid-column-gap:20px;grid-row-gap:20px;-webkit-column-gap:20px;column-gap:20px;display:grid;grid-auto-flow:row;grid-auto-rows:408px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));row-gap:20px}@media(max-width:700px){.burger_menu{grid-auto-rows:308px}}.burger_button{margin:50px auto}
+/*# sourceMappingURL=239.c935ca80.chunk.css.map*/
