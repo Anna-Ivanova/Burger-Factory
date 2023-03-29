@@ -1,0 +1,92 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+.basket {
+    &_wrapper {
+        border-bottom: 2px solid $ref-details;
+    }
+
+    &_item {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 35px;
+        margin-bottom: 10px;
+
+        @include breakpoint(xl) {
+            gap: 10px;
+        }
+
+        @include breakpoint(lg) {
+            flex-wrap: wrap;
+        }
+
+    }
+
+    &_card {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        margin: 15px 0;
+        flex: 1 1 auto;
+
+        p {
+            font: normal normal bold 14px/18px Poppins;
+        }
+    }
+
+    &_imgwrapper {
+        max-width: 150px;
+        height: 141px;
+    }
+
+    &_img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    &_title {
+        font: normal normal bold 16px/18px Poppins;
+    }
+
+    &_buttons {
+        display: flex;
+        flex: 1 1 auto;
+
+        button {
+            width: 36px;
+            border-radius: 8px;
+            background-color: $ref-details;
+            text-align: center;
+            font: normal normal bold 16px/18px Poppins;
+        }
+
+        span {
+            width: 36px;
+            margin-left: 4px;
+            margin-right: 4px;
+            text-align: center;
+            border-radius: 8px;
+            padding: 5px;
+        }
+    }
+
+    &_removeblock {
+        display: flex;
+        flex: 1 1 auto;
+    }
+
+    &_remove {
+        font: normal normal normal 16px/18px Poppins;
+        border-radius: 8px;
+        padding: 8px 12px;
+        margin-left: 15px;
+
+        &:hover {
+            background-color: lightgrey;
+            transition: 0.3s;
+        }
+    }
+}

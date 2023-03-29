@@ -31,17 +31,23 @@ export const menu = [
     {
         id: 1,
         imgurl: './images/burgermenu.png',
-        title: '1/4 Pound Cheese'
+        title: '1/4 Pound Cheese',
+        description: 'A flame-grilled beef patty topped with melted American cheese, crunchy pickles, yellow mustard, and ketchup on a toasted sesame seed bun.',
+        price: 10
     },
     {
         id: 2,
         imgurl: './images/burgermenu.png',
-        title: 'Big Burger'
+        title: 'Big Burger',
+        description: 'A flame-grilled, plant-based patty with juicy tomatoes, crisp lettuce, creamy mayonnaise, ketchup, crunchy pickles, and sliced white onions on a toasted sesame seed bun.',
+        price: 15
     },
     {
         id: 3,
         imgurl: './images/burgermenu.png',
-        title: 'Pure Bacon'
+        title: 'Pure Bacon',
+        description: "Two 1/4 lb* flame-grilled beef patties with crispy bacon, melted American cheese, ketchup, and creamy mayonnaise on a toasted sesame seed bun.",
+        price: 17
     }
 ]
 export const responsive = {

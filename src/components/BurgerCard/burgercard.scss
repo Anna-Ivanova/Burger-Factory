@@ -13,6 +13,17 @@
         padding: 20px;
     }
 
+    &_title {
+        text-align: center;
+        font: normal normal bold 24px/35px Poppins;
+        letter-spacing: 0px;
+        white-space: nowrap;
+
+        @include breakpoint (premd) {
+            font: normal normal bold 14px/14px Poppins;
+        }
+    }
+
     &_imgwrapper {
         max-width: 220px;
 
@@ -33,5 +44,29 @@
         font: normal normal bold 18px/27px Poppins;
         letter-spacing: 0px;
         color: $ref-details;
+        border: none;
+        background-color: white;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &_buy {
+        padding: 5px 20px;
+        border-radius: 10px;
+        background-color: $ref-details;
+        text-align: center;
+        font: normal normal bold 14px/18px Poppins;
+
+        &:hover {
+            background-color: $prim-btn;
+            transition: 0.3s;
+        }
+    }
+
+    &_price {
+        font: normal normal bold 14px/18px Poppins;
+        margin: 10px 0;
     }
 }

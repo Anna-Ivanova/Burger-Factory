@@ -2,10 +2,10 @@
 
 .story {
     &_main {
-        padding: 150px 0;
+        padding: 150px 10px 0 10px;
 
         @include breakpoint (premd) {
-            padding: 70px 0;
+            padding: 80px 10px 0 10px;
         }
     }
 

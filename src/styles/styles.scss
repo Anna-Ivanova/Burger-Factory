@@ -113,6 +113,7 @@ button {
     font: normal normal bold 18px/25px Poppins;
     letter-spacing: 0px;
     border-radius: 10px;
+    display: block;
 
     @include breakpoint (premd) {
         padding: 6px 18px 6px 18px;
@@ -122,5 +123,15 @@ button {
     &:hover {
         background-color: $ref-details;
         transition: 0.3s;
+    }
+}
+
+.modal_info {
+    max-width: 75%;
+    margin: 20px 0;
+    text-align: justify;
+
+    @include breakpoint (sm) {
+        max-width: 100%;
     }
 }
